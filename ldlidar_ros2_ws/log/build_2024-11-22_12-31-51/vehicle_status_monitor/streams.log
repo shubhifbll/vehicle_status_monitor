@@ -1,0 +1,46 @@
+[2.217s] Invoking command in '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build
+[2.816s] running develop
+[2.817s] /home/vijay/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.817s] !!
+[2.817s] 
+[2.817s]         ********************************************************************************
+[2.817s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.817s]         Instead, use pypa/build, pypa/installer or other
+[2.817s]         standards-based tools.
+[2.817s] 
+[2.818s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.818s]         ********************************************************************************
+[2.818s] 
+[2.818s] !!
+[2.818s]   easy_install.initialize_options(self)
+[3.265s] Removing /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle-status-monitor.egg-link (link to .)
+[3.337s] Invoked command in '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor' returned '0': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build
+[3.341s] Invoking command in '/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vehicle_status_monitor build --build-base /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build install --record /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/install.log --single-version-externally-managed install_data --force
+[3.840s] running egg_info
+[3.872s] writing ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/PKG-INFO
+[3.874s] writing dependency_links to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/dependency_links.txt
+[3.874s] writing entry points to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/entry_points.txt
+[3.874s] writing requirements to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/requires.txt
+[3.875s] writing top-level names to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/top_level.txt
+[3.943s] reading manifest file '../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/SOURCES.txt'
+[3.946s] writing manifest file '../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/SOURCES.txt'
+[3.946s] running build
+[3.946s] running build_py
+[3.947s] copying vehicle_status_monitor/__init__.py -> /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor
+[3.947s] copying vehicle_status_monitor/monitor.py -> /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor
+[3.947s] running install
+[3.957s] running install_lib
+[3.990s] creating /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor
+[3.990s] copying /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor/__init__.py -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor
+[3.991s] copying /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor/monitor.py -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor
+[3.991s] byte-compiling /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor/__init__.py to __init__.cpython-310.pyc
+[3.992s] byte-compiling /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor/monitor.py to monitor.cpython-310.pyc
+[3.993s] running install_data
+[3.993s] copying resource/vehicle_status_monitor -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/ament_index/resource_index/packages
+[3.994s] copying package.xml -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor
+[3.994s] running install_egg_info
+[4.030s] Copying ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info to /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor-0.0.1-py3.10.egg-info
+[4.031s] running install_scripts
+[4.292s] Installing monitor script to /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/vehicle_status_monitor
+[4.293s] writing list of installed files to '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/install.log'
+[4.353s] Invoked command in '/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor' returned '0': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/vehicle_status_monitor build --build-base /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build install --record /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/install.log --single-version-externally-managed install_data --force

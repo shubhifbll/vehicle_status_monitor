@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating pyside2_gui.egg-info
+writing pyside2_gui.egg-info/PKG-INFO
+writing dependency_links to pyside2_gui.egg-info/dependency_links.txt
+writing entry points to pyside2_gui.egg-info/entry_points.txt
+writing requirements to pyside2_gui.egg-info/requires.txt
+writing top-level names to pyside2_gui.egg-info/top_level.txt
+writing manifest file 'pyside2_gui.egg-info/SOURCES.txt'
+reading manifest file 'pyside2_gui.egg-info/SOURCES.txt'
+writing manifest file 'pyside2_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vijay/ldlidar_ros2_ws/install/pyside2_gui/lib/python3.10/site-packages/pyside2-gui.egg-link (link to .)
+Installing pyside2_gui script to /home/vijay/ldlidar_ros2_ws/install/pyside2_gui/lib/pyside2_gui
+
+Installed /home/vijay/ldlidar_ros2_ws/build/pyside2_gui
+running symlink_data
+creating /home/vijay/ldlidar_ros2_ws/install/pyside2_gui/share/ament_index/resource_index/packages
+symbolically linking /home/vijay/ldlidar_ros2_ws/build/pyside2_gui/resource/pyside2_gui -> /home/vijay/ldlidar_ros2_ws/install/pyside2_gui/share/ament_index/resource_index/packages
+symbolically linking /home/vijay/ldlidar_ros2_ws/build/pyside2_gui/package.xml -> /home/vijay/ldlidar_ros2_ws/install/pyside2_gui/share/pyside2_gui

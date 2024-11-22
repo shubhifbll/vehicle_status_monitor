@@ -1,0 +1,2 @@
+[console_scripts]
+pyside2_gui = pyside2_gui.gui_node:main
