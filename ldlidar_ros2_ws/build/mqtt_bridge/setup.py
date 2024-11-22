@@ -1,1 +1,0 @@
-/home/vijay/ldlidar_ros2_ws/src/mqtt_bridge/setup.py

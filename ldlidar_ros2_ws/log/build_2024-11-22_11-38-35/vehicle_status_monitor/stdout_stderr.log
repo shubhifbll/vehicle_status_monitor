@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/entry_points.txt
+writing requirements to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/requires.txt
+writing top-level names to ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying vehicle_status_monitor/__init__.py -> /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor
+copying vehicle_status_monitor/monitor.py -> /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build/lib/vehicle_status_monitor
+running install
+running install_lib
+running install_data
+copying resource/vehicle_status_monitor -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor
+running install_egg_info
+removing '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/vehicle_status_monitor/vehicle_status_monitor.egg-info to /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages/vehicle_status_monitor-0.0.1-py3.10.egg-info
+running install_scripts
+Installing monitor script to /home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/vehicle_status_monitor
+writing list of installed files to '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/install.log'

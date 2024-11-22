@@ -1,1 +1,0 @@
-/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor/setup.py

@@ -1,0 +1,2 @@
+[console_scripts]
+monitor = vehicle_status_monitor.monitor:main
