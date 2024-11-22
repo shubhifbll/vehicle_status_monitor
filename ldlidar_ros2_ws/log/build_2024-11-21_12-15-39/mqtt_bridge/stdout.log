@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mqtt_bridge.egg-info
+writing mqtt_bridge.egg-info/PKG-INFO
+writing dependency_links to mqtt_bridge.egg-info/dependency_links.txt
+writing entry points to mqtt_bridge.egg-info/entry_points.txt
+writing requirements to mqtt_bridge.egg-info/requires.txt
+writing top-level names to mqtt_bridge.egg-info/top_level.txt
+writing manifest file 'mqtt_bridge.egg-info/SOURCES.txt'
+reading manifest file 'mqtt_bridge.egg-info/SOURCES.txt'
+writing manifest file 'mqtt_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages/mqtt-bridge.egg-link (link to .)
+Installing mqtt_bridge_node script to /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/bin
+
+Installed /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge
+running symlink_data
+creating /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/resource/mqtt_bridge -> /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/package.xml -> /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge
+creating /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/config
+symbolically linking /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/config/mqtt_bridge_config.yaml -> /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/config

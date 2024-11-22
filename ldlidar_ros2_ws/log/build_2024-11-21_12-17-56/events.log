@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.001076] (-) JobUnselected: {'identifier': 'vehicle_status_monitor'}
+[0.001108] (mqtt_bridge) JobQueued: {'identifier': 'mqtt_bridge', 'dependencies': OrderedDict()}
+[0.001140] (mqtt_bridge) JobStarted: {'identifier': 'mqtt_bridge'}
+[0.099699] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300432] (-) TimerEvent: {}
+[0.400829] (-) TimerEvent: {}
+[0.501243] (-) TimerEvent: {}
+[0.601743] (-) TimerEvent: {}
+[0.702221] (-) TimerEvent: {}
+[0.802580] (-) TimerEvent: {}
+[0.903073] (-) TimerEvent: {}
+[1.003457] (-) TimerEvent: {}
+[1.103862] (-) TimerEvent: {}
+[1.204356] (-) TimerEvent: {}
+[1.304797] (-) TimerEvent: {}
+[1.376118] (mqtt_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vijay', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vijay', 'OLDPWD': '/home/vijay/ldlidar_ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1878', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/vijay/ldlidar_ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vijay', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vijay', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/bin:/opt/ros/humble/bin:/home/vijay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vijay-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1659,unix/vijay-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1659', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8b9d2076_e7f2_45f6_a464_efccc340e8d4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2'}, 'shell': False}
+[1.404918] (-) TimerEvent: {}
+[1.505268] (-) TimerEvent: {}
+[1.605699] (-) TimerEvent: {}
+[1.706079] (-) TimerEvent: {}
+[1.806532] (-) TimerEvent: {}
+[1.906994] (-) TimerEvent: {}
+[2.004867] (mqtt_bridge) StdoutLine: {'line': b'running develop\n'}
+[2.005591] (mqtt_bridge) StderrLine: {'line': b'/home/vijay/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.005738] (mqtt_bridge) StderrLine: {'line': b'!!\n'}
+[2.005842] (mqtt_bridge) StderrLine: {'line': b'\n'}
+[2.005936] (mqtt_bridge) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.006054] (mqtt_bridge) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.006162] (mqtt_bridge) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.006256] (mqtt_bridge) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.006351] (mqtt_bridge) StderrLine: {'line': b'\n'}
+[2.006441] (mqtt_bridge) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.006536] (mqtt_bridge) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.006630] (mqtt_bridge) StderrLine: {'line': b'\n'}
+[2.006719] (mqtt_bridge) StderrLine: {'line': b'!!\n'}
+[2.006800] (mqtt_bridge) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.007057] (-) TimerEvent: {}
+[2.107320] (-) TimerEvent: {}
+[2.207673] (-) TimerEvent: {}
+[2.308025] (-) TimerEvent: {}
+[2.408387] (-) TimerEvent: {}
+[2.439012] (mqtt_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[2.473521] (mqtt_bridge) StdoutLine: {'line': b'writing mqtt_bridge.egg-info/PKG-INFO\n'}
+[2.474410] (mqtt_bridge) StdoutLine: {'line': b'writing dependency_links to mqtt_bridge.egg-info/dependency_links.txt\n'}
+[2.474673] (mqtt_bridge) StdoutLine: {'line': b'writing entry points to mqtt_bridge.egg-info/entry_points.txt\n'}
+[2.474982] (mqtt_bridge) StdoutLine: {'line': b'writing requirements to mqtt_bridge.egg-info/requires.txt\n'}
+[2.475322] (mqtt_bridge) StdoutLine: {'line': b'writing top-level names to mqtt_bridge.egg-info/top_level.txt\n'}
+[2.508520] (-) TimerEvent: {}
+[2.543384] (mqtt_bridge) StdoutLine: {'line': b"reading manifest file 'mqtt_bridge.egg-info/SOURCES.txt'\n"}
+[2.545618] (mqtt_bridge) StdoutLine: {'line': b"writing manifest file 'mqtt_bridge.egg-info/SOURCES.txt'\n"}
+[2.581797] (mqtt_bridge) StdoutLine: {'line': b'running build_ext\n'}
+[2.582012] (mqtt_bridge) StdoutLine: {'line': b'Creating /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages/mqtt-bridge.egg-link (link to .)\n'}
+[2.583205] (mqtt_bridge) StdoutLine: {'line': b'Installing mqtt_bridge_node script to /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/bin\n'}
+[2.583695] (mqtt_bridge) StdoutLine: {'line': b'\n'}
+[2.583949] (mqtt_bridge) StdoutLine: {'line': b'Installed /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge\n'}
+[2.584172] (mqtt_bridge) StdoutLine: {'line': b'running symlink_data\n'}
+[2.608700] (-) TimerEvent: {}
+[2.641525] (mqtt_bridge) CommandEnded: {'returncode': 0}
+[2.668017] (mqtt_bridge) JobEnded: {'identifier': 'mqtt_bridge', 'rc': 0}
+[2.668961] (-) EventReactorShutdown: {}

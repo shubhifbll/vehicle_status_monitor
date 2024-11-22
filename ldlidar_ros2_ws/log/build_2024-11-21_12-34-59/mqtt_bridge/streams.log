@@ -1,0 +1,29 @@
+[0.698s] Invoking command in '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/build --no-deps
+[0.917s] running develop
+[0.917s] /home/vijay/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.917s] !!
+[0.917s] 
+[0.917s]         ********************************************************************************
+[0.917s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.917s]         Instead, use pypa/build, pypa/installer or other
+[0.917s]         standards-based tools.
+[0.917s] 
+[0.918s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.918s]         ********************************************************************************
+[0.918s] 
+[0.918s] !!
+[0.918s]   easy_install.initialize_options(self)
+[1.078s] running egg_info
+[1.090s] writing mqtt_bridge.egg-info/PKG-INFO
+[1.090s] writing dependency_links to mqtt_bridge.egg-info/dependency_links.txt
+[1.090s] writing entry points to mqtt_bridge.egg-info/entry_points.txt
+[1.090s] writing requirements to mqtt_bridge.egg-info/requires.txt
+[1.090s] writing top-level names to mqtt_bridge.egg-info/top_level.txt
+[1.116s] reading manifest file 'mqtt_bridge.egg-info/SOURCES.txt'
+[1.116s] writing manifest file 'mqtt_bridge.egg-info/SOURCES.txt'
+[1.130s] running build_ext
+[1.130s] Creating /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages/mqtt-bridge.egg-link (link to .)
+[1.131s] Installing mqtt_bridge_node script to /home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/mqtt_bridge
+[1.131s] 
+[1.131s] Installed /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge
+[1.163s] Invoked command in '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge' returned '0': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/build --no-deps

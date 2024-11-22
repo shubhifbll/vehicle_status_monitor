@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mqtt_bridge
+Version: 0.0.1
+Summary: A ROS 2 package bridging ROS topics and MQTT.
+Author: Vijay
+Author-email: saurabh@futuristicbots.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Requires-Dist: paho-mqtt>=1.5.0
+Requires-Dist: rclpy

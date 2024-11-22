@@ -1,0 +1,263 @@
+[0.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--sym']
+[0.195s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77ed460695a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77ed46068f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77ed46068f10>>, mixin_verb=('build',))
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vijay/ldlidar_ros2_ws'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mqtt_bridge' with type 'ros.ament_python' and name 'mqtt_bridge'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_status_monitor) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_status_monitor' with type 'ros.ament_python' and name 'vehicle_status_monitor'
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.342s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.342s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.342s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.342s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/vijay/ldlidar_ros2_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_stl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2', 'merge_install': False, 'path': '/home/vijay/ldlidar_ros2_ws/src/ldlidar_stl_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'mqtt_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge', 'merge_install': False, 'path': '/home/vijay/ldlidar_ros2_ws/src/mqtt_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'vehicle_status_monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_status_monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor', 'merge_install': False, 'path': '/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor', 'symlink_install': True, 'test_result_base': None}
+[0.430s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vijay/ldlidar_ros2_ws/src/ldlidar_stl_ros2' with build type 'ament_cmake'
+[0.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vijay/ldlidar_ros2_ws/src/ldlidar_stl_ros2'
+[0.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vijay/ldlidar_ros2_ws/src/mqtt_bridge' with build type 'ament_python'
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'ament_prefix_path')
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/ament_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/ament_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/ament_prefix_path.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.452s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor' with build type 'ament_python'
+[0.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_status_monitor', 'ament_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/ament_prefix_path.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/ament_prefix_path.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/ament_prefix_path.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake /home/vijay/ldlidar_ros2_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2
+[0.860s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vijay/ldlidar_ros2_ws/src/mqtt_bridge'
+[0.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.260s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vijay/ldlidar_ros2_ws/src/vehicle_status_monitor'
+[1.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/build --no-deps symlink_data
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build --no-deps symlink_data
+[2.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake /home/vijay/ldlidar_ros2_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2
+[2.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2 -- -j8 -l8
+[4.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'pythonpath_develop')
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/share/mqtt_bridge/hook/pythonpath_develop.ps1'
+[4.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge' returned '0': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/build --no-deps symlink_data
+[4.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/share/mqtt_bridge/hook/pythonpath_develop.dsv'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/build/mqtt_bridge/share/mqtt_bridge/hook/pythonpath_develop.sh'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge' for CMake module files
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge' for CMake config files
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib'
+[4.242s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/bin'
+[4.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'path')
+[4.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/path.ps1'
+[4.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/path.dsv'
+[4.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/path.sh'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/pkgconfig/mqtt_bridge.pc'
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/lib/python3.10/site-packages'
+[4.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'pythonpath')
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonpath.ps1'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonpath.dsv'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonpath.sh'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/bin'
+[4.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'pythonscriptspath')
+[4.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonscriptspath.ps1'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonscriptspath.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/hook/pythonscriptspath.sh'
+[4.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt_bridge)
+[4.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/package.ps1'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/package.dsv'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/package.sh'
+[4.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/package.bash'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/mqtt_bridge/package.zsh'
+[4.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge/share/colcon-core/packages/mqtt_bridge)
+[4.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_status_monitor', 'pythonpath_develop')
+[4.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath_develop.ps1'
+[4.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath_develop.dsv'
+[4.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor' returned '0': PYTHONPATH=/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/build --no-deps symlink_data
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/build/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath_develop.sh'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor' for CMake module files
+[4.366s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor' for CMake config files
+[4.367s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/bin'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/pkgconfig/vehicle_status_monitor.pc'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/lib/python3.10/site-packages'
+[4.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_status_monitor', 'pythonpath')
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath.ps1'
+[4.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath.dsv'
+[4.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/hook/pythonpath.sh'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/bin'
+[4.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_status_monitor)
+[4.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/package.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/package.dsv'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/package.sh'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/package.bash'
+[4.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/vehicle_status_monitor/package.zsh'
+[4.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor/share/colcon-core/packages/vehicle_status_monitor)
+[12.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2 -- -j8 -l8
+[12.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2
+[12.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[12.788s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' for CMake module files
+[12.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay/ldlidar_ros2_ws/install/vehicle_status_monitor:/home/vijay/ldlidar_ros2_ws/install/mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/vijay/ldlidar_ros2_ws/build/ldlidar_stl_ros2
+[12.790s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' for CMake config files
+[12.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[12.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[12.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[12.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[12.792s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib'
+[12.793s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/bin'
+[12.793s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[12.793s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[12.793s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/bin'
+[12.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[12.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[12.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[12.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[12.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[12.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[12.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[12.858s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' for CMake module files
+[12.859s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2' for CMake config files
+[12.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[12.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[12.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[12.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[12.861s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/bin'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/bin'
+[12.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[12.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[12.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[12.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[12.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[12.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/ldlidar_ros2_ws/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[12.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.892s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.914s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/ldlidar_ros2_ws/install/local_setup.ps1'
+[12.917s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay/ldlidar_ros2_ws/install/_local_setup_util_ps1.py'
+[12.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/ldlidar_ros2_ws/install/setup.ps1'
+[12.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/ldlidar_ros2_ws/install/local_setup.sh'
+[12.923s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay/ldlidar_ros2_ws/install/_local_setup_util_sh.py'
+[12.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/ldlidar_ros2_ws/install/setup.sh'
+[12.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/ldlidar_ros2_ws/install/local_setup.bash'
+[12.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/ldlidar_ros2_ws/install/setup.bash'
+[12.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/ldlidar_ros2_ws/install/local_setup.zsh'
+[12.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/ldlidar_ros2_ws/install/setup.zsh'
